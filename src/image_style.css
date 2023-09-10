@@ -1,0 +1,7 @@
+img {
+	display: block;
+	max-width: 350px !important;
+	max-height: 350px;
+	margin: auto;
+	border-radius: 5px;
+}

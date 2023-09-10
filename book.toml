@@ -1,0 +1,18 @@
+[book]
+authors = ["vismate"]
+language = "hu"
+multilingual = false
+src = "src"
+title = "5. félévi jegyzetek"
+
+[output.katex]
+
+[output.html]
+no-section-label = true
+default-theme = "ayu"
+additional-css = ["src/image_style.css"]
+git-repository-url = "https://github.com/vismate/jegyzetek-5"
+git-repository-icon = "fa-github"
+
+[preprocessor.katex]
+renderers = ["html"]
