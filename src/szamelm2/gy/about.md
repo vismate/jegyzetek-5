@@ -7,4 +7,4 @@
 **Csoport:** 5\
 
 ## Értékelés
-
+- 2 ZH

@@ -18,6 +18,7 @@
 
 # Mesterséges intelligencia
 - [Előadás](./mi/ea/about.md)
+  - [1. Bevezetés](./mi/ea/01.md)
 
 # Numerikus módszerek
 - [Előadás](./nummod/ea/about.md)
@@ -27,6 +28,7 @@
 # Telekommunikációs hálózatok
 - [Előadás](./telekomm/ea/about.md)
 - [Gyakorlat](./telekomm/gy/about.md)
+  - [1. Gyakorlat](./telekomm/gy/01.md)
 
 # Valószínűségszámítás és statisztika
 - [Gyakorlat](./valszam/gy/about.md)
