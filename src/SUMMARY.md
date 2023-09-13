@@ -9,6 +9,7 @@
 
 # Adatbázisok II.
 - [Előadás](./adatb2/ea/about.md)
+  - [1. Előadás](./adatb2/ea/01.md)
 - [Gyakorlat](./adatb2/gy/about.md)
   - [1. Gyakorlat](./adatb2/gy/01.md)
 
@@ -24,9 +25,11 @@
 - [Előadás](./nummod/ea/about.md)
   - [1. Gépi számábrázolás](./nummod/ea/01.md)
 - [Gyakorlat](./nummod/gy/about.md)
+  - [1. Gyakorlat](./nummod/gy/01.md)
 
 # Telekommunikációs hálózatok
 - [Előadás](./telekomm/ea/about.md)
+  - [1. Előadás](./telekomm/ea/01.md)
 - [Gyakorlat](./telekomm/gy/about.md)
   - [1. Gyakorlat](./telekomm/gy/01.md)
 
