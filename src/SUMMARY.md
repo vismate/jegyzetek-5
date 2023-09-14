@@ -4,6 +4,7 @@
 
 # A számításelmélet alapjai II.
 - [Előadás](./szamelm2/ea/about.md)
+  - [1. Előadás](./szamelm2/ea/01.md)
 - [Gyakorlat](./szamelm2/gy/about.md)
   - [1. Gyakorlat - rezolúció](./szamelm2/gy/01.md)
 
@@ -15,7 +16,9 @@
 
 # Konkurens programozás
 - [Előadás](./konkurens/ea/about.md)
+  - [1. Előadás](./konkurens/ea/01.md)
 - [Gyakorlat](./konkurens/gy/about.md)
+  - [1. Gyakorlat](./konkurens/gy/01.md)
 
 # Mesterséges intelligencia
 - [Előadás](./mi/ea/about.md)
