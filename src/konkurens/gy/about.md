@@ -1,4 +1,4 @@
-# Konkurens programozás gyakorlat                                                                                                                                                                    
+# Konkurens programozás gyakorlat
 
 ## Alapadatok
 **Idő:** Csütörtök, 19:30 - 20:15\

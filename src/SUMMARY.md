@@ -38,3 +38,4 @@
 
 # Valószínűségszámítás és statisztika
 - [Gyakorlat](./valszam/gy/about.md)
+  - [1. Gyakorlat](./valszam/gy/01.md)
