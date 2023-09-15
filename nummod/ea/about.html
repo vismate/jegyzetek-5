@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="hu" class="sidebar-visible no-js ayu">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Előadás - 5. félévi jegyzetek</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../src/image_style.css">
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('ayu')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../about.html">A jegyzetről</a></li><li class="chapter-item expanded affix "><li class="part-title">A számításelmélet alapjai II.</li><li class="chapter-item expanded "><a href="../../szamelm2/ea/about.html">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../szamelm2/ea/01.html">1. Előadás</a></li></ol></li><li class="chapter-item expanded "><a href="../../szamelm2/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../szamelm2/gy/01.html">1. Gyakorlat - rezolúció</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Adatbázisok II.</li><li class="chapter-item expanded "><a href="../../adatb2/ea/about.html">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../adatb2/ea/01.html">1. Előadás</a></li></ol></li><li class="chapter-item expanded "><a href="../../adatb2/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../adatb2/gy/01.html">1. Gyakorlat</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Konkurens programozás</li><li class="chapter-item expanded "><a href="../../konkurens/ea/about.html">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../konkurens/ea/01.html">1. Előadás</a></li></ol></li><li class="chapter-item expanded "><a href="../../konkurens/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../konkurens/gy/01.html">1. Gyakorlat</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Mesterséges intelligencia</li><li class="chapter-item expanded "><a href="../../mi/ea/about.html">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../mi/ea/01.html">1. Bevezetés</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Numerikus módszerek</li><li class="chapter-item expanded "><a href="../../nummod/ea/about.html" class="active">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nummod/ea/01.html">1. Gépi számábrázolás</a></li></ol></li><li class="chapter-item expanded "><a href="../../nummod/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nummod/gy/01.html">1. Gyakorlat</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Telekommunikációs hálózatok</li><li class="chapter-item expanded "><a href="../../telekomm/ea/about.html">Előadás</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../telekomm/ea/01.html">1. Előadás</a></li></ol></li><li class="chapter-item expanded "><a href="../../telekomm/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../telekomm/gy/01.html">1. Gyakorlat</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Valószínűségszámítás és statisztika</li><li class="chapter-item expanded "><a href="../../valszam/gy/about.html">Gyakorlat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../valszam/gy/01.html">1. Gyakorlat</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">5. félévi jegyzetek</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/vismate/jegyzetek-5" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="numerikus-módszerek-előadás"><a class="header" href="#numerikus-módszerek-előadás">Numerikus módszerek előadás</a></h1>
+<h2 id="alapadatok"><a class="header" href="#alapadatok">Alapadatok</a></h2>
+<p><strong>Idő:</strong> Hétfő, 8:00 - 10:00<br />
+<strong>Helyszín:</strong> Déli Tömb 0-803 Szabó József előadó<br />
+<strong>Oktató:</strong> Kovács Péter<br />
+<strong>Csoport:</strong> 1</p>
+<h2 id="Értékelés"><a class="header" href="#Értékelés">Értékelés</a></h2>
+<h3 id="viszga"><a class="header" href="#viszga">Viszga:</a></h3>
+<ul>
+<li>15 feleletválasztós kérdés</li>
+<li>min 8 pont</li>
+<li>maximum 3-ast lehet kvízen szerezni, jobb jegyért lehet felelni tételekből</li>
+<li>szóbelin rontani is lehet</li>
+</ul>
+<h3 id="gyakorlatok"><a class="header" href="#gyakorlatok">Gyakorlatok:</a></h3>
+<ul>
+<li>2 ZH: 
+<ul>
+<li>Október 27. 16:00-18:00, </li>
+<li>December 15. 16:00-18:00</li>
+</ul>
+</li>
+</ul>
+<h2 id="források"><a class="header" href="#források">Források</a></h2>
+<ul>
+<li><a href="https://canvas.elte.hu/courses/37321">Canvas</a></li>
+<li><a href="https://canvas.elte.hu/courses/37321/files/2353595/download?wrap=1">Vizsga információk</a></li>
+<li><a href="https://www.inf.elte.hu/dstore/document/290/Numerikus_modszerek_peldatar.pdf">Numerikus módszerek példatár</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../mi/ea/01.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../nummod/ea/01.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../mi/ea/01.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../nummod/ea/01.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
